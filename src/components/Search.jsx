@@ -37,8 +37,8 @@ export const Search = ({ searchPokemon }) => {
           width: "100%",
           boxShadow: "0 3px 7px rgba(179, 179, 179, 0.5)",
         }}
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
+        value={searchTerm.toLowerCase()}
+        onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
         onKeyDown={handleKeyDown}
       />
       <i

@@ -7,7 +7,7 @@ This project was created using React and PokeAPI. The API is completely free, so
 - Type `npm run dev` inside the terminal and you are good to go!
 
 #### Note
-This project was not built with CRA template, instead Vite was used and you should the same for your future React applications.
+This project was not built with CRA template. Vite was used instead and you should do the same for your future React applications.
 
 ### Useful Resources
 PokeAPI Link: [https://pokeapi.co/](https://pokeapi.co/)
